@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [CRM]" parallel="tests">
+  <test name="Test-Runner-2(failed)" parallel="tests">
+    <classes>
+      <class name="CampaignTest.CreateCampaignTest">
+        <methods>
+          <include name="configBM"/>
+          <include name="configAM"/>
+          <include name="TestStart"/>
+          <include name="openBrowser"/>
+        </methods>
+      </class> <!-- CampaignTest.CreateCampaignTest -->
+      <class name="OrganizationTest.CreateOrganizationTest">
+        <methods>
+          <include name="configBM"/>
+          <include name="configAM"/>
+          <include name="configAC"/>
+          <include name="openBrowser"/>
+        </methods>
+      </class> <!-- OrganizationTest.CreateOrganizationTest -->
+    </classes>
+  </test> <!-- Test-Runner-2(failed) -->
+</suite> <!-- Failed suite [CRM] -->
